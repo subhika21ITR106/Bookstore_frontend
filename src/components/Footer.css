@@ -1,0 +1,62 @@
+.footer {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ 
+  
+  .right-column .dotted-list {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .right-column .dotted-list li {
+    text-decoration: none;
+    margin: 5px 0;
+    padding-left: 15px;
+    position: relative;
+    color: #fff; 
+    cursor: pointer;
+    transition: color 0.3s; 
+  }
+  
+  .right-column .dotted-list li::before {
+    text-decoration: none;
+    content: '\2022'; 
+    position: absolute;
+    left: 0;
+  }
+
+  .right-column .dotted-list li:hover {
+    text-decoration: none;
+    color: #f3f3f3;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #fdfafa; /* Change the color as needed */
+  }
+  
